@@ -1,0 +1,322 @@
+: 1672670151:0;s
+: 1672670154:0;ranger
+: 1672670191:0;paru -S zsh-syntax-highlighting zsh-autosuggestions
+: 1672670218:0;ranger
+: 1672670269:0;cd Git/TehCW
+: 1672670301:0;sudo ln -s /usr/share/zsh/plugins/zsh-syntax-highlighting /usr/share/oh-my-zsh/custom/plugins/
+: 1672670309:0;sudo ln -s /usr/share/zsh/plugins/zsh-autosuggestions /usr/share/oh-my-zsh/custom/plugins/
+: 1672670325:0;vim .zhsrc
+: 1672670345:0;vim ~/.zshrc
+: 1672670490:0;sudo pacman -Syyu
+: 1672670515:0;pacman -Qq
+: 1672670522:0;ls
+: 1672670598:0;paru -R ttf-naikai-git
+: 1672670611:0;sudo pacman -Syyu
+: 1672671273:0;vim ~/.zshrc
+: 1672671313:0;r
+: 1672671426:0;vim ~/.zshrc
+: 1672671587:0;pa vim
+: 1672671596:0;vim ~/.zshrc
+: 1672671646:0;ra
+: 1672671664:0;vim ~/.zshrc
+: 1672673124:0;paa
+: 1672673131:0;pa vim
+: 1672673148:0;ra
+: 1672716163:0;paa
+: 1672716427:0;clear
+: 1672716443:0;neofetch
+: 1672716534:0;vim .vimrc
+: 1672716553:0;vim ~/.vim/vimrc
+: 1672716566:0;vim .zshrc
+: 1672716617:0;pa lolcat
+: 1672716651:0;n
+: 1672719103:0;s
+: 1672719110:0;n
+: 1672725703:0;r
+: 1672725703:0;n
+: 1672725706:0;r
+: 1672725706:0;n
+: 1672725707:0;r
+: 1672725707:0;n
+: 1672725710:0;ra
+: 1672725743:0;r
+: 1672725743:0;ra
+: 1672725750:0;e
+: 1672725751:0;r
+: 1672725751:0;e
+: 1672725753:0;r
+: 1672725753:0;e
+: 1672725761:0;ra
+: 1672726046:0;ea
+: 1672726048:0;ra
+: 1672726529:0;alsamixer
+: 1672726695:0;pacman -Qq
+: 1672727036:0;htop
+: 1672727576:0;pa pipewire-pulse pipewire-alsa pipewire-jack
+: 1672727635:0;pa lib32-pipewire lib32-pipewire-jack
+: 1672727649:0;pa easyeffects
+: 1672727706:0;sudo systemctl enable pipewire --user
+: 1672727713:0;sudo systemctl enable pipewire --xingji
+: 1672727720:0;systemctl enable pipewire --user
+: 1672727730:0;systemctl enable pipewire-pulse --user
+: 1672727754:0;pa blueman
+: 1672727770:0;systemctl enable bluetooth
+: 1672727832:0;paru -S helvum
+: 1672727889:0;paru -S qpwgraph
+: 1672728822:0;pa WirePlumber
+: 1672728863:0;pa wireplumber
+: 1672730117:0;ra
+: 1672730599:0;cd Git
+: 1672730608:0;git clone https://github.com/yaocccc/picom.git
+: 1672730615:0;cd picom
+: 1672730626:0;rm -rf build
+: 1672730647:0;LDFLAGS="-L/usr/local/lib" CPPFLAGS="-I/usr/local/include" meson --buildtype=release . build
+: 1672730669:0;ninja -C build
+: 1672730679:0;sudo ninja -C build install
+: 1672730698:0;picom --experimental-backends --config ~/scripts/config/picom.conf
+: 1672730752:0;ninja -C build install
+: 1672730953:0;ra
+: 1672731383:0;mkdir ~/.config/picom
+: 1672731450:0;cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+: 1672731452:0;ra
+: 1672731562:0;ea
+: 1672731566:0;ra
+: 1672733284:0;cd Git
+: 1672733288:0;git clone
+: 1672733291:0;git clone https://github.com/xingji-27/xingji27-dwm.git
+: 1672733301:0;ra
+: 1672733458:0;reboot
+: 1672734091:0;ra
+: 1672734136:0;pa alacritty
+: 1672734186:0;ra
+: 1672736841:0;paru -S yesplaymusic
+: 1672736954:0;pa sof-firmware alsa-firmware alsa-ucm-conf
+: 1672740130:0;ra
+: 1672741745:0;paru -Ss picom-tryone144
+: 1672741751:0;paru -Ss picom
+: 1672741789:0;paru -Ss picom-tryone
+: 1672741799:0;paru -S picom-tryone
+: 1672741806:0;paru -S picom-tryone-git
+: 1672745590:0;ra
+: 1672747137:0;n
+: 1672747311:0;pa wine wine-gecko wine-mono
+: 1672750195:0;ra
+: 1672752073:0;pa winetricks
+: 1672752250:0;paru -S lib32-gst-plugins-ugly
+: 1672752302:0;pa gstreamer
+: 1672752315:0;pa gst-libav
+: 1672752328:0;pa gst-plugins-bad
+: 1672752349:0;pa gst-plugins-base
+: 1672752358:0;pa gst-plugins-good
+: 1672752371:0;pa gst-plugins-ugly
+: 1672752423:0;paru -S gst-plugin-libde265
+: 1672752473:0;pa libde265
+: 1672752736:0;paru -Ss itunes
+: 1672752865:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes wine
+: 1672752890:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes winecfg
+: 1672752910:0;mkdir ~/.wine32/iTunes
+: 1672752919:0;mkdir ~/.wine32
+: 1672752920:0;mkdir ~/.wine32/iTunes
+: 1672752927:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes winecfg
+: 1672752994:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes winetricks
+: 1672753009:0;ra
+: 1672753066:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes winecfg
+: 1672753096:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes wine ~/Downloads/iTunes64Setup.exe
+: 1672753130:0;cd ~/Downloads
+: 1672753131:0;ls
+: 1672753138:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes wine iTunes64Setup.exe
+: 1672753159:0;ranger
+: 1672753176:0;WINEARCH=win32 WINEPREFIX=~/.wine32/iTunes wine iTunes64Setup.exe
+: 1672753245:0;ra
+: 1672753276:0;WINEARCH=win64 WINEPREFIX=~/.wine64/iTunes winetricks
+: 1672754245:0;WINEARCH=win64 WINEPREFIX=~/.wine64/iTunes wine iTunes64Setup.exe
+: 1672754280:0;WINEARCH=win64 WINEPREFIX=~/.wine64/iTunes winecfg
+: 1672754295:0;WINEARCH=win64 WINEPREFIX=~/.wine64/iTunes wine iTunes64Setup.exe
+: 1672754469:0;WINEARCH=win64 WINEPREFIX=~/.wine64/iTunes winetricks
+: 1672754569:0;pa playonlinux
+: 1672754583:0;paru -S playonlinux
+: 1672754741:0;ra
+: 1672755699:0;paru -Ss wxpython
+: 1672755706:0;paru -S wxpython
+: 1672756441:0;paru -S playonlinux
+: 1672792415:0;ra
+: 1672794617:0;cd workspace/dwm
+: 1672794629:0;sudo make clean install
+: 1672794651:0;vim config.h
+: 1672794838:0;sudo make clean install
+: 1672794849:0;vim dwm.c
+: 1672794886:0;vim config.h
+: 1672795192:0;sudo make clean install
+: 1672795298:0;vim dwm.c
+: 1672795330:0;vim config.h
+: 1672795334:0;ra
+: 1672795606:0;sudo make clean install
+: 1672795681:0;cd workspace/dwm
+: 1672795685:0;sudo make clean install
+: 1672795842:0;vim config.h
+: 1672795919:0;pa pacmanfm
+: 1672795922:0;vim config.h
+: 1672795947:0;paru -S pcmanfm
+: 1672796035:0;sudo make clean install
+: 1672796072:0;vim config.h
+: 1672796087:0;ra
+: 1672796384:0;sudo make clean install
+: 1672796418:0;vim config.h
+: 1672796632:0;sudo make clean install
+: 1672796726:0;vim config.h
+: 1672796917:0;ra
+: 1672796956:0;vim config.h
+: 1672797194:0;sudo make clean install
+: 1672797344:0;vim config.h
+: 1672797436:0;sudo make clean install
+: 1672797548:0;ra
+: 1672797927:0;cd workspace/dwm
+: 1672797937:0;sudo make clean install
+: 1672797959:0;cd workspace/dwm
+: 1672797965:0;vim config.h
+: 1672797983:0;sudo make clean install
+: 1672798015:0;ra
+: 1672798306:0;cd workspace/dwm
+: 1672798307:0;sudo make clean install
+: 1672798874:0;pa libreoffice-fresh
+: 1672798905:0;vim .zshrcrc
+: 1672798909:0;vim .zshrcr
+: 1672798917:0;vim .zshrc
+: 1672798962:0;ps libreoffice-fresh
+: 1672798983:0;pa libreoffice-fresh-zh-cn
+: 1672799141:0;paru -S qbtorrent-enhance-version
+: 1672799175:0;paru -S qbtorrent-enhance
+: 1672799190:0;paru -S qbittorrent-enhanced
+: 1672800186:0;curl https://jsd.cdn.zzko.cn/gh/XIU2/TrackersListCollection/all.txt
+: 1672800199:0;ra
+: 1672800216:0;curl
+: 1672800221:0;curl --help
+: 1672800379:0;ra
+: 1672801043:0;paru -S deepin-wine-wechat
+: 1672801071:0;paru -Ss wechat
+: 1672801140:0;paru -S wewechat++
+: 1672801298:0;paru -R wewechat++
+: 1672801396:0;ra
+: 1672801886:0;paru -S baidunetdisk
+: 1672802004:0;ra
+: 1672802524:0;paru -Ss weixin
+: 1672802545:0;paru -S deepin-wine-wechat
+: 1672802599:0;paru -Ss deepin-wine-wechat
+: 1672802731:0;git clone https://github.com/JohnMasoner/deepin-udis86.git
+: 1672802745:0;ra
+: 1672802784:0;cd Git
+: 1672802785:0;ls
+: 1672802792:0;cd deepin-udis86
+: 1672802805:0;makepkg -i
+: 1672802817:0;paru -S deepin-wine-wechat
+: 1672803085:0;pa lib32-libxkbcommon
+: 1672803150:0;cd
+: 1672803155:0;cd Downloads
+: 1672803171:0;sudo pacman -U lib32-libxkbcommon-1.5.0-1-x86_64.pkg.tar.zst
+: 1672803176:0;paru -S deepin-wine-wechat
+: 1672803358:0;ra
+: 1672803524:0;paru -S deepin-wine-wechat
+: 1672803678:0;paru -S deepin-wine-wechat --mflags --skipinteg
+: 1672804118:0;ra
+: 1672805972:0;cd Downloads/UG_NX12.0.2_LINUX64ç³»ç»ƒ¿å®ƒ©è£ƒ¥åƒ¬ƒ¥
+: 1672805976:0;_cd_options
+: 1672805999:0;ls
+: 1672806009:0;cd UG_NX12.0.2_LINUX64ç³»ç»ƒ¿å®ƒ©è£ƒ¥åƒ¬ƒ¥
+: 1672806011:0;cd _SolidSQUAD_
+: 1672806024:0;sudo pacman -U _SolidSQUAD_.tar.gz
+: 1672806410:0;pa tcsh
+: 1672806415:0;pa ksh
+: 1672806420:0;pa lsb
+: 1672806597:0;pa pdksh
+: 1672806611:0;pa libstdc++5
+: 1672806839:0;cd ..
+: 1672806850:0;la
+: 1672806853:0;ls
+: 1672806857:0;cd ..
+: 1672806866:0;cd ~/Downloads
+: 1672806867:0;ls
+: 1672806874:0;cd UG_NX12.0.2_LINUX64ç³»ç»ƒ¿å®ƒ©è£ƒ¥åƒ¬ƒ¥
+: 1672806875:0;ls
+: 1672806882:0;./Siemens.NX.12.0.2.Linux64.iso
+: 1672806900:0;ra
+: 1672806929:0;sudo ./Siemens.NX.12.0.2.Linux64.iso
+: 1672806995:0;ra
+: 1672807464:0;cd Downloads/UG_NX12.0.2_LINUX64ç³»ç»ƒ¿å®ƒ©è£ƒ¥åƒ¬ƒ¥/iso/Siemens.NX.12.0.2.Linux64/
+: 1672807478:0;ls
+: 1672807496:0;./run_install
+: 1672807502:0;sudo ./run_install
+: 1672807512:0;sudo ./SPLMLicenseServer_v8.2.4_linux_setup.bin
+: 1672807553:0;vim SPLMLicenseServer_v8.2.4_linux_setup.bin
+: 1672808989:0;./run_install
+: 1672808998:0;vim run_install
+: 1672809808:0;ra
+: 1672810138:0;paru -S 	cider
+: 1672811761:0;paru -Ss calf-studio-gear
+: 1672812671:0;ra
+: 1672812832:0;htop
+: 1672813208:0;ra
+: 1672813428:0;cd workspace/dwm
+: 1672813435:0;sudo make clean install
+: 1672813456:0;cd workspace/dwm
+: 1672813459:0;ra
+: 1672813502:0;cd workspace/dwm
+: 1672813504:0;ra
+: 1672813554:0;sudo make clean install
+: 1672814321:0;ea
+: 1672814323:0;ra
+: 1672814373:0;cd workspace/dwm
+: 1672814376:0;sudo make clean install
+: 1672814717:0;ra
+: 1672815132:0;cd workspace/dwm
+: 1672815133:0;sudo make clean install
+: 1672815201:0;cider
+: 1672820139:0;paru -S -S com.qq.tim.spark
+: 1672820144:0;paru -S com.qq.tim.spark
+: 1672821878:0;paru -Ss github
+: 1672821911:0;paru -Ss github-D
+: 1672821923:0;paru -Ss github-desktop
+: 1672821930:0;paru -S github-desktop
+: 1672821992:0;paru -R github-desktop
+: 1672822000:0;paru -R github-desktop-bin
+: 1672822193:0;ra
+: 1672823409:0;sudo pacman -Qq > ~/Documents/pkg.txt
+: 1672823413:0;ra
+: 1672827646:0;htop
+: 1672827815:0;cd scripts
+: 1672827817:0;ls
+: 1672827874:0;chmod 755 autostart.sh blurlock.sh dwm-status-refresh.sh dwm-status.sh feh.sh gif_recorder.sh music_player.sh rofi.sh screenkey.sh set_backlight.sh set_screen.sh set_vol.sh wp-change.sh 
+: 1672828341:0;ra
+: 1672832219:0;pa MARKTEXT
+: 1672832236:0;paru -S marktext
+: 1672834945:0;ra
+: 1672837870:0;sudo visudo
+: 1672838580:0;help
+: 1672838585:0;--help
+: 1672838588:0;vim --help
+: 1672838744:0;sudo pacman -S sof-firmware alsa-firmware alsa-ucm-conf
+: 1672839684:0;ra
+: 1672841455:0;s
+: 1672841475:0;vim .zshrc
+: 1672841482:0;n
+: 1672841486:0;clear
+: 1672841488:0;n
+: 1672841757:0;ra
+: 1672841856:0;rager
+: 1672841859:0;ra
+: 1672843493:0;vim ~/zsh/README.md
+: 1672895853:0;paa
+: 1672896693:0;ra
+: 1672898933:0;cd workspace/dwm
+: 1672898948:0;sudo make clean install
+: 1672898969:0;vimdwm.c
+: 1672898974:0;vim dwm.c
+: 1672898992:0;sudo make clean install
+: 1672901091:0;ra
+: 1672901822:0;pa pamixer xorg-xsetroot
+: 1672901835:0;pamixer
+: 1672902558:0;ra
+: 1672902651:0;amixer
+: 1672902663:0;sudo pacman -S vmixer
+: 1672902667:0;sudo pacman -S v=amixer
+: 1672902673:0;sudo pacman -S amixer
+: 1672902997:0;ra
